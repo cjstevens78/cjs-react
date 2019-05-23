@@ -305,7 +305,7 @@ class App extends Component {
             <i className="fab fa-font-awesome"></i>
           </div>
           <div className="col-12 text-center">
-          <a href="#" className="btn btn-light" value="Download from GitHub">Download from GitHub <i className="fab fa-github"></i></a>
+          <a href="https://github.com/cjstevens78/cjs-react" className="btn btn-light" value="Download from GitHub">Download from GitHub <i className="fab fa-github"></i></a>
           </div>
         </div>
          <div className="row row-type-3">
@@ -330,36 +330,10 @@ class App extends Component {
           </div>
           <div className="col-12 jobs">
             <div className="col-sm-6">
-              <Job 
-              startdate={this.state.jobs[0].startdate} 
-              enddate={this.state.jobs[0].enddate}
-              jobtitle={this.state.jobs[0].jobtitle}
-              company={this.state.jobs[0].company}
-              location={this.state.jobs[0].location}
-              summary={this.state.jobs[0].summary}
-              glance1={this.state.jobs[0].glance1}
-              glance2={this.state.jobs[0].glance2}
-              glance3={this.state.jobs[0].glance3}
-              glance4={this.state.jobs[0].glance4}
-              link={this.state.jobs[0].link}
-              imagetitle={this.state.jobs[0].imagetitle}
-              />
+              <Job jobdata={this.state.jobs[0]} />
             </div>
             <div className="col-sm-6">
-              <Job 
-              startdate={this.state.jobs[1].startdate} 
-              enddate={this.state.jobs[1].enddate}
-              jobtitle={this.state.jobs[1].jobtitle}
-              company={this.state.jobs[1].company}
-              location={this.state.jobs[1].location}
-              summary={this.state.jobs[1].summary}
-              glance1={this.state.jobs[1].glance1}
-              glance2={this.state.jobs[1].glance2}
-              glance3={this.state.jobs[1].glance3}
-              glance4={this.state.jobs[1].glance4}
-              link={this.state.jobs[1].link}
-              imagetitle={this.state.jobs[1].imagetitle}
-              ></Job>
+              <Job jobdata={this.state.jobs[1]} />
             </div>
           </div>
         </div>
@@ -369,8 +343,8 @@ class App extends Component {
           </div>
           <div className="col-12 jobs-sub">
 
-            {this.state.jobs.map(job => {
-              return <Job jobdata={job} key={job.id} />
+            {this.state.jobs.slice(2).map(job => {
+              return <div className="col-sm-4"><Job jobdata={job} key={job.id} /></div>
             })}
             
           </div>
