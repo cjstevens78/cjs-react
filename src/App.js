@@ -17,11 +17,11 @@ class App extends Component {
         mobile: "07809 758568",
         phone: "01252 641982",
         cvtext: "CV Download",
-        cvlink: "april2019"
+        cvlink: "may2019"
       }
     ],
     jobs: [
-      { id: "current",
+      { id: "hhhhj",
         startdate: "March 2019", 
         enddate: "Present", 
         jobtitle: "Front End Web Developer", 
@@ -35,7 +35,7 @@ class App extends Component {
         link: "https://www.nihr.ac.uk/",
         imagetitle: "nihr"
       },
-      { id: "past",
+      { id: "vgfd",
         startdate: "February 2019", 
         enddate: "March 2019", 
         jobtitle: "Front End Web Developer", 
@@ -49,7 +49,7 @@ class App extends Component {
         link: "https://www.outbound.co.uk/",
         imagetitle: "outbound"
       },
-      { id: "pastt",
+      { id: "edsc",
         startdate: "June 2018", 
         enddate: "February 2019", 
         jobtitle: "Front End Web Developer", 
@@ -64,7 +64,7 @@ class App extends Component {
         imagetitle: "newfieldbenefits"
       },
       { 
-        id: "pasttt",
+        id: "hjdn",
         startdate: "April 2018", 
         enddate: "June 2018", 
         jobtitle: "Front End Web Developer",  
@@ -78,7 +78,7 @@ class App extends Component {
         link: "https://www.port.ac.uk/",
         imagetitle: "universityofportsmouth"
       },
-      { id: "pastttt",
+      { id: "lkjd",
         startdate: "March 2018", 
         enddate: "April 2018", 
         jobtitle: "Front End Web Developer",  
@@ -92,7 +92,7 @@ class App extends Component {
         link: "http://www.aviatorbytag.com",
         imagetitle: "aviatorhotel"
       },
-      { id: "pasttttt",
+      { id: "poef",
         startdate: "August 2017", 
         enddate: "March 2018", 
         jobtitle: "Front End Web Developer",  
@@ -106,7 +106,7 @@ class App extends Component {
         link: "https://www.classicandsportscar.com/",
         imagetitle: "classicandsportscar"
       },
-      { id: "pastttttt",
+      { id: "khsf",
         startdate: "January 2017", 
         enddate: "July 2017", 
         jobtitle: "Front End Web Developer",  
@@ -120,7 +120,7 @@ class App extends Component {
         link: "https://www.supermassivegames.com/",
         imagetitle: "supermassive"
       },
-      { id: "pasttttttt",
+      { id: "qwsd",
         startdate: "August 2016", 
         enddate: "December 2016", 
         jobtitle: "Front End Web Developer",  
@@ -134,7 +134,7 @@ class App extends Component {
         link: "http://www.cignawellbeing.com",
         imagetitle: "cigna"
       },
-      { id: "pastttttttt",
+      { id: "mjhg",
         startdate: "December 2015", 
         enddate: "August 2016", 
         jobtitle: "Front End Web Developer",
@@ -148,7 +148,7 @@ class App extends Component {
         link: "https://www.pharmiwebsolutions.com",
         imagetitle: "pharmiweb"
       },
-      { id: "pasttttttttt",
+      { id: "tghj",
         startdate: "November 2015", 
         enddate: "December 2015", 
         jobtitle: "Front End Web Developer",  
@@ -162,7 +162,7 @@ class App extends Component {
         link: "https://www.agent3.com/",
         imagetitle: "agent3"
       },
-      { id: "pastttttttttt",
+      { id: "hyui",
         startdate: "October 2015", 
         enddate: "November 2015", 
         jobtitle: "Front End Web Developer",  
@@ -176,7 +176,7 @@ class App extends Component {
         link: "https://www.shu.ac.uk",
         imagetitle: "shu"
       },
-      { id: "pasttttttttttt",
+      { id: "lkjm",
         startdate: "September 2015", 
         enddate: "October 2015", 
         jobtitle: "Front End Web Developer",  
@@ -190,7 +190,7 @@ class App extends Component {
         link: "http://www.westoneloans.co.uk",
         imagetitle: "westoneloans"
       },
-      { id: "pastttttttttttt",
+      { id: "dsae",
         startdate: "September 2015", 
         enddate: "September 2015", 
         jobtitle: "Front End Web Developer",  
@@ -204,7 +204,7 @@ class App extends Component {
         link: "http://www.precedent.com",
         imagetitle: "precedent"
       },
-      { id: "pasttttttttttttt",
+      { id: "wert",
         startdate: "August 2015", 
         enddate: "September 2015", 
         jobtitle: "Front End Web Developer", 
@@ -218,7 +218,7 @@ class App extends Component {
         link: "https://www.eteach.com/",
         imagetitle: "eteach"
       },
-      { id: "pastttttttttttttt",
+      { id: "kjhg",
         startdate: "March 2015", 
         enddate: "August 2015", 
         jobtitle: "Front End Web Developer",
@@ -232,7 +232,7 @@ class App extends Component {
         link: "https://www.pharmiwebsolutions.com",
         imagetitle: "pharmiweb"
       },
-      { id: "pasttttttttttttttt",
+      { id: "dfjh",
         startdate: "August 2011", 
         enddate: "February 2015", 
         jobtitle: "Front End Web Developer", 
@@ -246,7 +246,7 @@ class App extends Component {
         link: "https://businessshop.o2.co.uk",
         imagetitle: "o2"
       },
-      { id: "pastttttttttttttttt",
+      { id: "fdgh",
         startdate: "October 2010", 
         enddate: "August 2011", 
         jobtitle: "Front End Web Developer", 
@@ -293,22 +293,22 @@ class App extends Component {
             <About />
           </div>
           <div className="col-sm-6 mt-4 mb-4 pb-2 pt-2 text-center">
-            <i className="fab fa-react"></i>
-            <i className="fab fa-js"></i>
-            <i className="fab fa-npm"></i>
-            <i className="fab fa-yarn"></i>
-            <i className="fab fa-html5"></i>
-            <i className="fab fa-css3"></i>
-            <i className="fab fa-sass"></i>
-            <i className="fab fa-bootstrap"></i>
-            <i className="fab fa-github"></i>
-            <i className="fab fa-font-awesome"></i>
+            <i className="fab fa-react" title="React"></i>
+            <i className="fab fa-js" title="Javascript ES6"></i>
+            <i className="fab fa-npm" title="NPM"></i>
+            <i className="fab fa-yarn" title="Yarn"></i>
+            <i className="fab fa-html5" title="HTML5"></i>
+            <i className="fab fa-css3" title="CSS3"></i>
+            <i className="fab fa-sass" title="SASS"></i>
+            <i className="fab fa-bootstrap" title="Bootstrap"></i>
+            <i className="fab fa-github" title="GIT Hub"></i>
+            <i className="fab fa-font-awesome" title="Font Awesome"></i>
           </div>
           <div className="col-12 text-center">
-          <a href="https://github.com/cjstevens78/cjs-react" className="btn btn-light" value="Download from GitHub">Download from GitHub <i className="fab fa-github"></i></a>
+          <a href="https://github.com/cjstevens78/cjs-react" className="btn btn-light" value="Download from GitHub" target="_blank">Download from GitHub <i className="fab fa-github"></i></a>
           </div>
         </div>
-         <div className="row row-type-3">
+        {/* Coming Soon -- <div className="row row-type-3">
           <div className="col-12 text-center type-header">
             <h2>Code examples:</h2>
           </div>
@@ -323,7 +323,7 @@ class App extends Component {
               <li><a href="#">Link out to codepen</a></li>
             </ul>
           </div>
-        </div>
+        </div>*/}
         <div className="row row-type-4">
           <div className="col-12 text-center type-header">
             <h2>Recent Contracts:</h2>
@@ -354,7 +354,7 @@ class App extends Component {
             <h2>There's lots more back to 1999..</h2>
           </div>
           <div className="col-12 text-center pt-4 pb-4">
-            <a href="/documents/chris_stevens_webdev_contract_DOC_april2019.docx" className="btn btn-primary" value="Download my CV">Download my CV <i className="fas fa-file-word ml-2"></i></a>
+            <a href="/Documents/chris_stevens_webdev_contract_may2019.docx" className="btn btn-primary" value="Download my CV">Download my CV <i className="fas fa-file-word ml-2"></i></a>
           </div>
         </div>
         <footer className="row">

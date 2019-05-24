@@ -1,8 +1,8 @@
 %jobcontent {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	padding: 2rem;
-	display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  display: flex;
   flex-direction: column;
 }
 
@@ -22,10 +22,15 @@
 
 	}
 
+	h3 {
+		font-size: 1.5rem;
+	}
+
 	h4 {
 		font-size: 1rem;
 		color: $neutral4;
 	}
+
 }
 
 .jobs-sub {
