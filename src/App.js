@@ -17,13 +17,27 @@ class App extends Component {
         mobile: "07809 758568",
         phone: "01252 641982",
         cvtext: "CV Download",
-        cvlink: "may2019"
+        cvlink: "jun2019"
       }
     ],
     jobs: [
+      { id: "hhfahj",
+        startdate: "May 2019", 
+        enddate: "Present", 
+        jobtitle: "Front End Web Developer", 
+        company: "The Financial Times Ltd", 
+        location: "Cannon Street, London", 
+        summary: "I have been working with the FT at their new office ‘Bracken House’ in the email development team. A short term engagement where I was tasked with HTML template and component integration into an AngularJS based email system. The system is used by the editorial team to manually send out newsletters and also sends out ‘MyFT’ subscription based newsletters.",
+        glance1: "Part of a multi disciplinary AGILE team with Trello.", 
+        glance2: "Working with an API driven AngularJS template platform.", 
+        glance3: "Use of usual skillset of HTML5, CSS3/SASS, Sublime, Javascript (inc AngularJS), API integration, Extensive Command Line, GitHub, Litmus testing.", 
+        glance4: "Exposure to technologies such as MongoDB, Heroku and GitX.", 
+        link: "http://www.ft.com",
+        imagetitle: "ft"
+      },
       { id: "hhhhj",
         startdate: "March 2019", 
-        enddate: "Present", 
+        enddate: "April 2019", 
         jobtitle: "Front End Web Developer", 
         company: "University of Southampton (NIHR)", 
         location: "Southampton, Hampshire", 
@@ -98,7 +112,7 @@ class App extends Component {
         jobtitle: "Front End Web Developer",  
         company: "Haymarket Media Group", 
         location: "Twickenham", 
-        summary: "Haymarket media are a large media company who operate over 70 magazine and web based brands. The role primarily involved the creation of new UI modules for their online magazines such as <a href='https://www.stuff.tv' target='_blank'>STUFF</a>, <a href='https://www.classicandsportscar.com' target='_blank'>Classic and Sports Car</a>, <a href='https://www.fourfourtwo.com' target='_blank'>Four Four Two</a> and <a href='https://www.whathifi.com' target='_blank'>What Hi-Fi?</a>. I worked as part of a team in an Agile Kanban Scrum environment via Jira with a Drupal 7/8 CMS. Each site differed slightly in its approach so i had to call on my wide ranging experience with a variety of skills in, Sublime 3, Vanilla Javascript/JQuery, Sass, NPM, Compass, GRUNT/GULP, Bourbon, Neat, Bootstrap 4, Git, SSH, Putty, Bitbucket, Twig PHP, InVision for designs, virtual machines via Virtual box, Vagrant and Docker.", 
+        summary: "Haymarket media are a large media company who operate over 70 magazine and web based brands. The role primarily involved the creation of new UI modules for their online magazines such as <a href='https://www.stuff.tv' target='_blank' rel='noopener noreferrer'>STUFF</a>, <a href='https://www.classicandsportscar.com' target='_blank' rel='noopener noreferrer'>Classic and Sports Car</a>, <a href='https://www.fourfourtwo.com' target='_blank' rel='noopener noreferrer'>Four Four Two</a> and <a href='https://www.whathifi.com' target='_blank' rel='noopener noreferrer'>What Hi-Fi?</a>. I worked as part of a team in an Agile Kanban Scrum environment via Jira with a Drupal 7/8 CMS. Each site differed slightly in its approach so i had to call on my wide ranging experience with a variety of skills in, Sublime 3, Vanilla Javascript/JQuery, Sass, NPM, Compass, GRUNT/GULP, Bourbon, Neat, Bootstrap 4, Git, SSH, Putty, Bitbucket, Twig PHP, InVision for designs, virtual machines via Virtual box, Vagrant and Docker.", 
         glance1: "Drupal 7/8 with Twig PHP", 
         glance2: "HTML5 / Pre-processed CSS3 using SASS / Task runners and CLI / Javascript ECMA2015+ and JQuery / GIT source control", 
         glance3: "Working in an Agile team with Drupal devs, testers, PM's, UX designers", 
@@ -112,7 +126,7 @@ class App extends Component {
         jobtitle: "Front End Web Developer",  
         company: "Supermassive Games", 
         location: "Guildford, Surrey", 
-        summary: "Supermassive Games have produced some leading games for the Sony label including Until Dawn, Little Big Planet and Killzone. I worked in a game development team as the sole UI resource. During my time there I worked on three new games <a href='https://www.playstation.com/en-gb/games/hidden-agenda-ps4/' target='_blank'>Hidden Agenda</a> (playlink), <a href='https://www.playstation.com/en-gb/games/the-inpatient-ps4/' target='_blank'>The Inpatient</a> (VR) and <a href='https://www.playstation.com/en-gb/games/bravo-team-ps4/' target='_blank'>Bravo Team</a> (VR). I used a UI system called Coherent UI to create complex interactive in-game UI components using HTML5, CSS3 animations, SASS and Javascript. This assignment was a very enjoyable learning curve and the change of industry and challenges presented by working in Unreal Engine 4 and Coherent UI proved that I can port my core skillset to the most unlikely of environments.", 
+        summary: "Supermassive Games have produced some leading games for the Sony label including Until Dawn, Little Big Planet and Killzone. I worked in a game development team as the sole UI resource. During my time there I worked on three new games <a href='https://www.playstation.com/en-gb/games/hidden-agenda-ps4/' target='_blank' rel='noopener noreferrer'>Hidden Agenda</a> (playlink), <a href='https://www.playstation.com/en-gb/games/the-inpatient-ps4/' target='_blank' rel='noopener noreferrer'>The Inpatient</a> (VR) and <a href='https://www.playstation.com/en-gb/games/bravo-team-ps4/' target='_blank' rel='noopener noreferrer'>Bravo Team</a> (VR). I used a UI system called Coherent UI to create complex interactive in-game UI components using HTML5, CSS3 animations, SASS and Javascript. This assignment was a very enjoyable learning curve and the change of industry and challenges presented by working in Unreal Engine 4 and Coherent UI proved that I can port my core skillset to the most unlikely of environments.", 
         glance1: "Adapt web development skills to working in a C++ Unreal Engine 4 environment Coherent UI – understanding its limitations and working around issues", 
         glance2: "HTML5 Javascript and JQuery Pre-processed CSS3 using SASS CSS3 animations and transitions", 
         glance3: "Perforce source control PS4 development launching and testing", 
@@ -127,10 +141,10 @@ class App extends Component {
         company: "Cigna UK", 
         location: "Southwark, London", 
         summary: "Cigna is a global organisation providing Employee Health insurance and Lifestyle Management products to Businesses. The team I worked in was small and agile and I was the sole Web Developer. We worked on the production of a new website which surveys employee's lifestyles and recommends changes that they can make to improve their stress levels, sleep patterns etc. The project had a Microsoft ASP.Net back end with a Front End setup of HTML 5, CSS3, Bootstrap, Mobile First Responsive, SASS and Javascript. The project was also multi-lingual and required adaptation for RTL languages. On a daily basis I worked closely with a graphic designer and group of back end developers to build and incorporate pages and changes into the development website. I also managed a list of BAU tasks assigned to me via TFS which related to the main website cignawellbeing.com.", 
-        glance1: "HTML5 using Modernizr for feature detection & polyfills for a consistent experience cross browser back to IE8.", 
-        glance2: "Bootstrap framework for rapid, mobile first development. Pre-processed CSS3 using SASS (config, partials, vars, mixins & media queries).", 
-        glance3: "Bespoke Javascript in native format and using the JQuery library.", 
-        glance4: "Multi language versions including RTL. Learning the REACT Javascript Library.", 
+        glance1: "", 
+        glance2: "", 
+        glance3: "", 
+        glance4: "", 
         link: "http://www.cignawellbeing.com",
         imagetitle: "cigna"
       },
@@ -169,30 +183,16 @@ class App extends Component {
         company: "Precedent Communications Limited", 
         location: "Curtain Road, London", 
         summary: "Precedent are a digital agency based in London. This was my second visit to Precedent, where I was given a build project for Sheffield Hallam University. I used supplied PSD's and wireframes to build a set of templates from scratch. Taking a mobile first approach, I used Yeoman to scaffold the project used GRUNT, GIT, SASS, JQUERY, Bourbon and NEAT to build a fully responsive cross browser web app. It was later handed off for integration into a Sitecore solution.", 
-        glance1: "HTML5, CSS3, SASS, Bourbon, Neat, Sublime, Javascript, JQuery, JSON", 
-        glance2: "Visual Studio, ASP.NEt, MS Sitecore, IIS", 
-        glance3: "Photoshop, Chrome Dev Tools", 
-        glance4: "GIT, Source Tree, Jira", 
-        link: "https://www.shu.ac.uk",
-        imagetitle: "shu"
-      },
-      { id: "lkjm",
-        startdate: "September 2015", 
-        enddate: "October 2015", 
-        jobtitle: "Front End Web Developer",  
-        company: "Ego Creative", 
-        location: "Ewshot, Surrey", 
-        summary: "Ego Creative is an Agency based in a converted pub on the Surrey/Hampshire border. They asked me to come in on a short term contract to work on building a new website for their financial services client 'West One Loans' who provide bridging loans. The role involved converting PSD designs into a master asset file for later integration into Wordpress. I built it from scratch using a supplied framework and the following: PSD designs, HTML5, CSS3, SASS, BEM, GIT via Tower, MAMP, Formstack, Bower, Bourbon, Neat, JQuery, Sublime, Transitions, Responsive, Media Queries, Mobile First, Browserstack, Google Analytics, BugHeard bug tracking, MAC OSX.", 
         glance1: "", 
         glance2: "", 
         glance3: "", 
         glance4: "", 
-        link: "http://www.westoneloans.co.uk",
-        imagetitle: "westoneloans"
+        link: "https://www.shu.ac.uk",
+        imagetitle: "shu"
       },
       { id: "dsae",
         startdate: "September 2015", 
-        enddate: "September 2015", 
+        enddate: "October 2015", 
         jobtitle: "Front End Web Developer",  
         company: "Precedent Communications Limited", 
         location: "Curtain Road, London",
@@ -252,7 +252,7 @@ class App extends Component {
         jobtitle: "Front End Web Developer", 
         company: "Sapient at Vodafone", 
         location: "Newbury, Berkshire", 
-        summary: "I worked on contract for <strong>Sapient</strong> (Number 1 Agency on NMA Top 100 Agencies List 2010) and was based on site in Newbury with their large telecommunications client <strong>Vodafone</strong>. I worked as part of a sprint team as the front end web development resource. The work involved working closely with other Developers, IA's and Designers. I followed supplied wireframes and designs to produce batches of semantic, standards compliant code for integration into the main <a href='http://www.vodafone.co.uk' target='_blank'>Vodafone website</a>. I was also tasked with day to day updates and amends which were entered into the ATG based content management system.", 
+        summary: "I worked on contract for <strong>Sapient</strong> (Number 1 Agency on NMA Top 100 Agencies List 2010) and was based on site in Newbury with their large telecommunications client <strong>Vodafone</strong>. I worked as part of a sprint team as the front end web development resource. The work involved working closely with other Developers, IA's and Designers. I followed supplied wireframes and designs to produce batches of semantic, standards compliant code for integration into the main <a href='http://www.vodafone.co.uk' target='_blank' rel='noopener noreferrer'>Vodafone website</a>. I was also tasked with day to day updates and amends which were entered into the ATG based content management system.", 
         glance1: "", 
         glance2: "", 
         glance3: "", 
@@ -305,7 +305,7 @@ class App extends Component {
             <i className="fab fa-font-awesome" title="Font Awesome"></i>
           </div>
           <div className="col-12 text-center">
-          <a href="https://github.com/cjstevens78/cjs-react" className="btn btn-light" value="Download from GitHub" target="_blank">Download from GitHub <i className="fab fa-github"></i></a>
+          <a href="https://github.com/cjstevens78/cjs-react" className="btn btn-light" value="Download from GitHub" target="_blank" rel="noopener noreferrer">Download from GitHub <i className="fab fa-github"></i></a>
           </div>
         </div>
         {/* Coming Soon -- <div className="row row-type-3">
@@ -354,7 +354,7 @@ class App extends Component {
             <h2>There's lots more back to 1999..</h2>
           </div>
           <div className="col-12 text-center pt-4 pb-4">
-            <a href="/Documents/chris_stevens_webdev_contract_may2019.docx" className="btn btn-primary" value="Download my CV">Download my CV <i className="fas fa-file-word ml-2"></i></a>
+            <a href="/Documents/chris_stevens_webdev_contract_jun2019.docx" className="btn btn-primary" value="Download my CV">Download my CV <i className="fas fa-file-word ml-2"></i></a>
           </div>
         </div>
         <footer className="row">
