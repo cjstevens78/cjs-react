@@ -25,6 +25,10 @@ body {
 		}
 	}
 
+	a {
+		word-break: break-all;
+	}
+
 	ul {
 		padding-left: 1rem;
 	}

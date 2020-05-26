@@ -16,7 +16,7 @@ const job = ( props ) => {
           <dd>{props.jobdata.location}</dd>
         </dl>
 
-        <a href={props.jobdata.link} target="_blank" rel="noopener noreferrer" title={props.jobdata.imagetitle} className="mb-4 job-image">
+        <a href={props.jobdata.link} target="_blank" rel="noopener noreferrer" title={props.jobdata.company} className="mb-4 job-image">
         <img src={"Images/" + props.jobdata.imagetitle + "-screenshot.jpg"} alt={props.jobdata.imagetitle} className="img-fluid" />
         </a>
        

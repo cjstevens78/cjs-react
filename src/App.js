@@ -12,36 +12,36 @@ class App extends Component {
   state = {
     details: [
       {
-        availability: "Immediate",
+        availability: "Not available",
         email: "cjs78@hotmail.co.uk",
         mobile: "07809 758568",
         phone: "01252 641982",
         cvtext: "CV Download",
-        cvlink: "jun2019"
+        cvlink: "2020"
       }
     ],
     jobs: [
-      { id: "hhfahj",
-        startdate: "May 2019", 
+      { id: "aaaaa",
+        startdate: "June 2019", 
         enddate: "Present", 
         jobtitle: "Front End Web Developer", 
-        company: "The Financial Times Ltd", 
-        location: "Cannon Street, London", 
-        summary: "I have been working with the FT at their new office ‘Bracken House’ in the email development team. A short term engagement where I was tasked with HTML template and component integration into an AngularJS based email system. The system is used by the editorial team to manually send out newsletters and also sends out ‘MyFT’ subscription based newsletters.",
+        company: "Croydon Council", 
+        location: "London Borough of Croydon", 
+        summary: "I am currently supplying my professional services to Croydon Council within the CDS (Croydon Digital Service) department. I am working on a new website which is currently being phased into production: <a href='https://new.croydon.gov.uk/adult-health-and-social-care' target='_blank'>https://new.croydon.gov.uk/adult-health-and-social-care</a>. It is a PHP based Drupal 8 website build based on an Azure DevOps platform. I am working within a multi-disciplinary team and am the sole Front End development resource. Croydon work in an Agile way with 2 weekly sprints. We have been working closely with Brighton and Hove Council to port their main Drupal website into Croydon to use as a base for the new website. We share all improvements we have made back to Brighton which saves them development time. I have also been working closely with the Shaw Trust to achieve the required AA accessibility standard for the new website. Code sharing has been a key part of this project with simplicity and portability of the codebase being an absolute must. Croydon Council recently won a bid for funding to roll out the code sharing project which is estimated to save councils millions of pounds in reduced duplicated effort. We have been working with other councils and third party providers to achive this aim... read more here: <a href='https://croydon.digital/2020/01/22/council-code-sharing-project-is-up-and-running/'>https://croydon.digital/2020/01/22/council-code-sharing-project-is-up-and-running/</a>. (im the one in the photo checking the train times on his phone!). Additionally, I have been working on a Wordpress site that seeks to engage with Digital businesses in the Croydon area ... check out the following article on the site which details some of the work we did to introduce the gov.uk 'Step by Step' process into the new Drupal site <a href='https://croydon.digital/2019/10/09/building-a-better-website-for-croydon/' target='_blank'>https://croydon.digital/2019/10/09/building-a-better-website-for-croydon/</a>.",
         glance1: "Part of a multi disciplinary AGILE team with Trello.", 
-        glance2: "Working with an API driven AngularJS template platform.", 
-        glance3: "Use of usual skillset of HTML5, CSS3/SASS, Sublime, Javascript (inc AngularJS), API integration, Extensive Command Line, GitHub, Litmus testing.", 
-        glance4: "Exposure to technologies such as MongoDB, Heroku and GitX.", 
-        link: "http://www.ft.com",
-        imagetitle: "ft"
+        glance2: "Working with Drupal 8 and Wordpress platforms.", 
+        glance3: "Use of usual skillset of HTML5, CSS3/SASS, Sublime, Javascript (inc AngularJS), API integration, Extensive Command Line, GitHub.", 
+        glance4: "Integration of pattern library into new website.", 
+        link: "https://croydon.digital/",
+        imagetitle: "croydon"
       },
-      { id: "hhhhj",
+      { id: "bbbbb",
         startdate: "March 2019", 
-        enddate: "April 2019", 
+        enddate: "May 2019", 
         jobtitle: "Front End Web Developer", 
         company: "University of Southampton (NIHR)", 
         location: "Southampton, Hampshire", 
-        summary: "I am currently working with the University of Southampton on behalf of the NHS to help roll out a newly designed website for the NIHR (National Institute for Health Research). The work involves the production of templates and component based assets which are integrated into a CMS system called SiteKit.",
+        summary: "I worked with the University of Southampton to help roll out a newly designed website for the NIHR (National Institute for Health Research). The work involved the production of component based assets loaded into a CMS system called SiteKit.",
         glance1: "Build cross browser and multi device website from supplied designs in Photoshop format.", 
         glance2: "Working with a CMS platform called ‘Site Kit’.", 
         glance3: "Use main skillset of HTML5 / Native Javascript / JQuery / Bootstrap 4 / CSS3 / Photoshop / Invision / CSS Animations inc GSAP / GIT / Bitbucket / Sublime / Mobile First / Responsive", 
@@ -49,27 +49,13 @@ class App extends Component {
         link: "https://www.nihr.ac.uk/",
         imagetitle: "nihr"
       },
-      { id: "vgfd",
-        startdate: "February 2019", 
-        enddate: "March 2019", 
-        jobtitle: "Front End Web Developer", 
-        company: "Outbound - Channel Agency", 
-        location: "Yateley, Hampshire", 
-        summary: "Outbound are a Channel Marketing agency working with big brand IT equipment manufacturers such as Hewlett Packard, McAfee, Fujitsu, Canon, AMD and Lexmark. The work involved creating a microsite for McAfee called 'SuperLeague'. The webiste allows sales executives to check their progress on a leaderboard and answer some targeted sales data questions.", 
-        glance1: "Build cross browser and multi device website from supplied designs in Adobe XD format.", 
-        glance2: "Working in an ASP.Net environment using Visual Studio and VS Code.", 
-        glance3: "Use main skillset of HTML5, SASS, Webpack, Babel, React.js, some native JS", 
-        glance4: "Working in a team environment, liaising with designers and .Net developers.", 
-        link: "https://www.outbound.co.uk/",
-        imagetitle: "outbound"
-      },
-      { id: "edsc",
+      { id: "ccccc",
         startdate: "June 2018", 
-        enddate: "February 2019", 
+        enddate: "March 2019", 
         jobtitle: "Front End Web Developer", 
         company: "Gallagher Communication", 
         location: "Liphook, Hampshire", 
-        summary: "Gallagher Communication are a global communications agency based in Liphook, Hampshire. They work with clients such as Husqvarna, Nike, BMW, Newfield, Lifepoint, Penske and AXA to manage their employee communications and benefits. My role there was varied and included the production of stand alone ‘React / Bootstrap 4’ websites, Angular JS ‘core’ based 'Benefit Brochure' sites and HTML email campaigns.", 
+        summary: "Gallagher Communication are a global communications agency based in Liphook, Hampshire. They work with clients such as Husqvarna, Nike, BMW, Newfield, Lifepoint, Penske and AXA to manage their employee communications and benefits. The service I supplied to Gallagher was varied and included the production of stand alone ‘React / Bootstrap 4’ websites, Angular JS ‘core’ based 'Benefit Brochure' sites and HTML email campaigns.", 
         glance1: "Build cross browser and multi device websites from supplied designs in Photoshop, Sketch and InVision formats.", 
         glance2: "Working with a bespoke Angular JS based platform known as ‘Core’. HTML email production using Mailchimp and tested in Litmus.", 
         glance3: "Use main skillset of HTML / CSS / SASS / Javascript / React / Angular JS / GRUNT / NPM / Bower / GIT / Bitbucket / Sublime / CSS Animation / Greensock GSAP / ScrollMagic", 
@@ -78,7 +64,7 @@ class App extends Component {
         imagetitle: "newfieldbenefits"
       },
       { 
-        id: "hjdn",
+        id: "ddddd",
         startdate: "April 2018", 
         enddate: "June 2018", 
         jobtitle: "Front End Web Developer",  
@@ -92,7 +78,7 @@ class App extends Component {
         link: "https://www.port.ac.uk/",
         imagetitle: "universityofportsmouth"
       },
-      { id: "lkjd",
+      { id: "eeeee",
         startdate: "March 2018", 
         enddate: "April 2018", 
         jobtitle: "Front End Web Developer",  
@@ -106,7 +92,7 @@ class App extends Component {
         link: "http://www.aviatorbytag.com",
         imagetitle: "aviatorhotel"
       },
-      { id: "poef",
+      { id: "fffff",
         startdate: "August 2017", 
         enddate: "March 2018", 
         jobtitle: "Front End Web Developer",  
@@ -120,7 +106,7 @@ class App extends Component {
         link: "https://www.classicandsportscar.com/",
         imagetitle: "classicandsportscar"
       },
-      { id: "khsf",
+      { id: "ggggg",
         startdate: "January 2017", 
         enddate: "July 2017", 
         jobtitle: "Front End Web Developer",  
@@ -134,7 +120,7 @@ class App extends Component {
         link: "https://www.supermassivegames.com/",
         imagetitle: "supermassive"
       },
-      { id: "qwsd",
+      { id: "hhhhh",
         startdate: "August 2016", 
         enddate: "December 2016", 
         jobtitle: "Front End Web Developer",  
@@ -148,7 +134,7 @@ class App extends Component {
         link: "http://www.cignawellbeing.com",
         imagetitle: "cigna"
       },
-      { id: "mjhg",
+      { id: "iiiii",
         startdate: "December 2015", 
         enddate: "August 2016", 
         jobtitle: "Front End Web Developer",
@@ -162,7 +148,7 @@ class App extends Component {
         link: "https://www.pharmiwebsolutions.com",
         imagetitle: "pharmiweb"
       },
-      { id: "tghj",
+      { id: "jjjjj",
         startdate: "November 2015", 
         enddate: "December 2015", 
         jobtitle: "Front End Web Developer",  
@@ -176,7 +162,7 @@ class App extends Component {
         link: "https://www.agent3.com/",
         imagetitle: "agent3"
       },
-      { id: "hyui",
+      { id: "kkkkk",
         startdate: "October 2015", 
         enddate: "November 2015", 
         jobtitle: "Front End Web Developer",  
@@ -190,7 +176,7 @@ class App extends Component {
         link: "https://www.shu.ac.uk",
         imagetitle: "shu"
       },
-      { id: "dsae",
+      { id: "lllll",
         startdate: "September 2015", 
         enddate: "October 2015", 
         jobtitle: "Front End Web Developer",  
@@ -204,7 +190,7 @@ class App extends Component {
         link: "http://www.precedent.com",
         imagetitle: "precedent"
       },
-      { id: "wert",
+      { id: "mmmmm",
         startdate: "August 2015", 
         enddate: "September 2015", 
         jobtitle: "Front End Web Developer", 
@@ -218,7 +204,7 @@ class App extends Component {
         link: "https://www.eteach.com/",
         imagetitle: "eteach"
       },
-      { id: "kjhg",
+      { id: "nnnnn",
         startdate: "March 2015", 
         enddate: "August 2015", 
         jobtitle: "Front End Web Developer",
@@ -232,7 +218,7 @@ class App extends Component {
         link: "https://www.pharmiwebsolutions.com",
         imagetitle: "pharmiweb"
       },
-      { id: "dfjh",
+      { id: "ooooo",
         startdate: "August 2011", 
         enddate: "February 2015", 
         jobtitle: "Front End Web Developer", 
@@ -246,7 +232,7 @@ class App extends Component {
         link: "https://businessshop.o2.co.uk",
         imagetitle: "o2"
       },
-      { id: "fdgh",
+      { id: "ppppp",
         startdate: "October 2010", 
         enddate: "August 2011", 
         jobtitle: "Front End Web Developer", 
@@ -341,7 +327,7 @@ class App extends Component {
           <div className="col-12 text-center type-header">
             <h2>More Contracts:</h2>
           </div>
-          <div className="col-12 jobs-sub">
+          <div className="col-12 jobs-sub pr-0 pl-0">
 
             {this.state.jobs.slice(2).map(job => {
               return <div className="col-sm-4"><Job jobdata={job} key={job.id} /></div>
@@ -354,7 +340,7 @@ class App extends Component {
             <h2>There's lots more back to 1999..</h2>
           </div>
           <div className="col-12 text-center pt-4 pb-4">
-            <a href="/Documents/chris_stevens_webdev_contract_jun2019.docx" className="btn btn-primary" value="Download my CV">Download my CV <i className="fas fa-file-word ml-2"></i></a>
+            <a href="/Documents/chris_stevens_webdev_contract_2020.docx" className="btn btn-primary" value="Download my CV">Download my CV <i className="fas fa-file-word ml-2"></i></a>
           </div>
         </div>
         <footer className="row">
