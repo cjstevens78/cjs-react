@@ -263,10 +263,10 @@ class App extends Component {
             />
         </header>
         <div className="row row-type-1">
-          <div className="col-sm-4 pt-4 pb-4 pr-4">
+          <div className="col-sm-3 pt-4 pb-4 pr-4">
             <img src={ Me } className="img-fluid" alt="Chris Stevens - Web Developer" />
           </div>
-          <div className="col-sm-8 p-4 intro">
+          <div className="col-sm-9 p-4 intro">
             <Intro />
           </div>
         </div>

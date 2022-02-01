@@ -35,5 +35,6 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1"
-  }
+  },
+  "homepage" : "https://cjstevens78.github.io/build"
 }
