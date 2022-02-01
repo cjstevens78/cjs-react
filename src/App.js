@@ -12,12 +12,12 @@ class App extends Component {
   state = {
     details: [
       {
-        availability: "Not available",
+        availability: "Looking about",
         email: "cjs78@hotmail.co.uk",
         mobile: "07809 758568",
         phone: "01252 641982",
         cvtext: "CV Download",
-        cvlink: "2020"
+        cvlink: "2022"
       }
     ],
     jobs: [
@@ -27,12 +27,12 @@ class App extends Component {
         jobtitle: "Front End Web Developer", 
         company: "Croydon Council", 
         location: "London Borough of Croydon", 
-        summary: "I am currently supplying my professional services to Croydon Council within the CDS (Croydon Digital Service) department. I am working on a new website which is currently being phased into production: <a href='https://new.croydon.gov.uk/adult-health-and-social-care' target='_blank'>https://new.croydon.gov.uk/adult-health-and-social-care</a>. It is a PHP based Drupal 8 website build based on an Azure DevOps platform. I am working within a multi-disciplinary team and am the sole Front End development resource. Croydon work in an Agile way with 2 weekly sprints. We have been working closely with Brighton and Hove Council to port their main Drupal website into Croydon to use as a base for the new website. We share all improvements we have made back to Brighton which saves them development time. I have also been working closely with the Shaw Trust to achieve the required AA accessibility standard for the new website. Code sharing has been a key part of this project with simplicity and portability of the codebase being an absolute must. Croydon Council recently won a bid for funding to roll out the code sharing project which is estimated to save councils millions of pounds in reduced duplicated effort. We have been working with other councils and third party providers to achive this aim... read more here: <a href='https://croydon.digital/2020/01/22/council-code-sharing-project-is-up-and-running/'>https://croydon.digital/2020/01/22/council-code-sharing-project-is-up-and-running/</a>. (im the one in the photo checking the train times on his phone!). Additionally, I have been working on a Wordpress site that seeks to engage with Digital businesses in the Croydon area ... check out the following article on the site which details some of the work we did to introduce the gov.uk 'Step by Step' process into the new Drupal site <a href='https://croydon.digital/2019/10/09/building-a-better-website-for-croydon/' target='_blank'>https://croydon.digital/2019/10/09/building-a-better-website-for-croydon/</a>.",
+        summary: "I am currently working with Croydon Council within the CDS (Croydon Digital Service) department. The role has been varied. Initially, I worked with the CDS team to build a new website which is a PHP based Drupal 8 website run on an Azure DevOps platform. I then split my time between the Croydon site and a wider collaborative project to produce a ‘white label’ version of the Croydon site for distribution to other councils – known as ‘LocalGov’ <a href='https://github.com/localgovdrupal/localgov_theme_croydon' target='_blank' rel='noopener noreferrer'>https://github.com/localgovdrupal/localgov_theme_croydon</a>. This has been a runaway success with many councils having already taken up the codebase. I work within a multi-disciplinary team and am the sole Front End development resource. Croydon work in an Agile way with 2 weekly sprints. I have also been working closely with the Shaw Trust to achieve the required AA accessibility standard. Additionally, I manage a Wordpress site that seeks to engage with Digital businesses in the Croydon area.",
         glance1: "Part of a multi disciplinary AGILE team with Trello.", 
-        glance2: "Working with Drupal 8 and Wordpress platforms.", 
-        glance3: "Use of usual skillset of HTML5, CSS3/SASS, Sublime, Javascript (inc AngularJS), API integration, Extensive Command Line, GitHub.", 
-        glance4: "Integration of pattern library into new website.", 
-        link: "https://croydon.digital/",
+        glance2: "Working with PHP Drupal 8 and Wordpress platforms.", 
+        glance3: "Use of usual skillset of HTML5, CSS3/SASS, Bootstrap 4, Accessibility, Sublime, Javascript, Extensive Command Line, GitHub.", 
+        glance4: "Working on an open collaborative project to provide a white label website solution for councils.", 
+        link: "https://www.croydon.gov.uk",
         imagetitle: "croydon"
       },
       { id: "bbbbb",
